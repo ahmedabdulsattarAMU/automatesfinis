@@ -1,6 +1,7 @@
 from automaton import Automaton
 from automaton import State
 
+# cette classe n'est pas utilisé dans le tp, mais peut bien être utilisé si le code se complique
 
 class CustomAutomaton(Automaton):
     _word: str

@@ -22,6 +22,8 @@ word = sys.argv[2]
 
 from automaton import Automaton
 
+
+
 def isDeterministic(automaton : automaton.Automaton):
 
     return hasAcceptState(automaton) and not hasEpsilon(automaton) and hasUniqueTransition(automaton)
